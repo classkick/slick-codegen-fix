@@ -1,0 +1,12 @@
+apply plugin: 'scala'
+
+repositories {
+    jcenter()
+}
+
+dependencies {
+    compile('org.scala-lang:scala-library:2.11.7')
+    compile('com.typesafe.slick:slick-codegen_2.11:3.1.0')
+
+    testCompile('junit:junit:4.12')
+}
